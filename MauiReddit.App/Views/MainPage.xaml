@@ -4,6 +4,7 @@
              x:Class="MauiReddit.App.Views.MainPage">
 
     <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="{DynamicResource MenuSearchIconImageSource}"/>
         <ToolbarItem IconImageSource="{DynamicResource MenuProfileIconImageSource}"/>
     </ContentPage.ToolbarItems>
 
