@@ -1,10 +1,12 @@
-﻿namespace MauiReddit.App.Views
+﻿using Microsoft.Maui.Controls;
+
+namespace MauiReddit.App.Views;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    public MainPage()
     {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+
     }
 }

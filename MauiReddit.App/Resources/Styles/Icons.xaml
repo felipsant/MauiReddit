@@ -4,6 +4,8 @@
 
     <x:String x:Key="IconProfile">&#xf007;</x:String>
     <x:String x:Key="IconSearch">&#xf002;</x:String>
+    <x:String x:Key="IconDetail">&#xf0c9;</x:String>
+    
     <x:String x:Key="MenuIconSize">22</x:String>
 
     <FontImageSource x:Key="MenuProfileIconImageSource"
@@ -14,6 +16,12 @@
 
     <FontImageSource x:Key="MenuSearchIconImageSource"
                      Glyph="{StaticResource IconSearch}"
+                     Size="{StaticResource MenuIconSize}"
+                     FontFamily="FontAwesome-Solid"
+                     Color="{StaticResource Black}"/>
+
+    <FontImageSource x:Key="MenuDetailIconImageSource"
+                     Glyph="{StaticResource IconDetail}"
                      Size="{StaticResource MenuIconSize}"
                      FontFamily="FontAwesome-Solid"
                      Color="{StaticResource Black}"/>
